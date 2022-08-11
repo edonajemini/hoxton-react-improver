@@ -1,0 +1,235 @@
+
+
+.header {
+  padding: 10px;
+  margin: 30px;
+  background-color: white;
+}
+.pretty-decoration{
+  width: 200px;
+}
+.header-ul {
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+}
+.header-li {
+  width: 200px;
+  display: inline-block;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  justify-content: space-between;
+  color: gray;
+}
+
+.header-li:hover {
+  color: gray;
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.1;
+  text-align: center;
+  font-family: cursive;
+  color: palevioletred;
+}
+
+.products {
+  margin: 10px;
+  place-content: center;
+}
+
+.product-Ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  place-content: center;
+  gap: 1rem;
+}
+
+.products img {
+  width: 380px;
+  height: 240px;
+  border-radius: 5px;
+}
+
+.product-list {
+  margin: 10px;
+  padding: 10px;
+  border: solid 3px gainsboro;
+  border-radius: 5px;
+}
+
+
+.put-it-in-cart {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.put-it-in-cart h3 {
+  padding-left: 30px;
+}
+
+.put-it-in-cart button {
+  background-color: transparent;
+  border: none;
+}
+
+.put-it-in-cart button:hover {
+  transform: scale(2);
+}
+
+.footer {
+  margin-top: 30px;
+  width: 100%;
+  background-color: blanchedalmond;
+  place-content: center;
+  place-items: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 60%;
+  margin-left: 20%
+}
+
+.footer-container-left {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 0.5rem;
+  place-content: center;
+}
+
+
+.footer-contact-us {
+  text-align: left;
+  font-weight: 530;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer-contact-us ul {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+.work-hours {
+  text-align: left;
+  font-weight: 530;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.work-hours h3 {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.work-hours ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+.footer-container-right {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 1.5rem;
+  place-content: center;
+  margin-top: 50px
+}
+
+.footer-container-right h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.footer-container-right form {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.footer-container-right button {
+  padding-top: 20px;
+  text-align: center;
+  background-color: transparent;
+  border: transparent;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: cursive;
+}
+
+.footer-container-right button:hover {
+  transform: scale(1.5);
+}
+
+.costumer-review-mail {
+  width: 300px;
+  border: solid 1px gray;
+  height: 26px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
+
+.footer-container-right textarea {
+  width: 300px;
+  border-radius: 7px;
+  margin-left: 10%;
+}
+
+.footer-container-right h3 {
+  font-size: 20px;
+  font-family: cursive;
+  width: 360px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.review-input {
+  place-content: center;
+  width: 60%;
+  border-top: solid 1.5px rgba(128, 128, 128, 0.57);
+  padding-bottom: 40px;
+  margin-left: 20%;
+}
+
+.review-input h3 {
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+}
+
+.show-review {
+  width: 90%;
+  place-content: center;
+  margin-left: 5%;
+}
+
+.show-review ul {
+  list-style-type: none;
+}
+
+.review-li {
+  text-align: justify;
+  border-bottom: solid 1px rgb(201, 170, 124);
+  border-radius: 2px;
+}
+
+.review-li p {
+  padding-top: 5px;
+  width: 96%;
+  text-align: justify;
+  margin-left: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.review-li h3 {
+  text-align: end;
+}
