@@ -1,6 +1,11 @@
 import { useState } from 'react'
+import { Link, Route } from "react-router-dom";
 import './App.css'
-import {Form } from "./components/Form"
+import {AddProduct } from "./components/AddProduct"
+import {Home } from "./pages/Home";
+import {Header} from "./components/Header"
+import { Products } from './components/Products';
+import {Footer} from "./components/Footer"
 function App() {
 
   const [products, setProducts] = useState([
@@ -66,50 +71,14 @@ function App() {
     }
   ])
 
+  const [messages, setMessages] = useState([])
+
 return (
   <div>
-  <div className='header'>
-        <ul className='header-ul'>
-        <img
-            className="pretty-decoration"
-            src='https://storage.googleapis.com/pod_public/1300/96821.jpg'
-            alt=""
-          />
-          <li className='header-li'>Home</li>
-          <li className='header-li'>About us</li>
-          <li className='header-li'>Brands</li>
-          <li className='header-li'>Cart</li>
-        </ul>
-
-    <h1>Edona 's little shop</h1>
-      </div>
-<div className='products'>
-<ul className='product-Ul'>
-          {
-            products.map(product => (
-              <div className='product-cart'>
-                <li className='product-list'>
-                  <img src={product.image} />
-                  <div className='put-it-in-cart'>
-                    <h3>${product.price}</h3>
-                    <button> BUY </button>
-                    <button> GO TO CART </button>
-                  </div>
-                </li>
-              </div>
-            ))}
-        </ul>
-</div>
-  <Form  products = {products} setProducts = {setProducts} />
-  <ul>
-    {products.map ((product)=>
-    <div>
-      <h3>{product.title}</h3>
-      <p>${product.price}</p>
-    
-    </div>
-    )}
-  </ul>
+  <Header />
+  <Products products = {products}/>
+  <AddProduct  products = {products} setProducts = {setProducts} />
+  <Footer  messages = {messages} setMessages = {setMessages} />
   </div>
 )
 }

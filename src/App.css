@@ -19,6 +19,10 @@
   font-size: 30px;
   font-family:'Times New Roman', Times, serif;
   justify-content: space-between;
+}
+.header-li a{
+  list-style: none;
+  text-decoration: none;
   color: gray;
 }
 
@@ -84,7 +88,8 @@ h1 {
 .footer {
   margin-top: 30px;
   width: 100%;
-  background-color: blanchedalmond;
+  background-color: palevioletred;
+  text-align: center;
   place-content: center;
   place-items: center;
 }
@@ -116,26 +121,6 @@ h1 {
   margin-left: 50px;
 }
 
-.work-hours {
-  text-align: left;
-  font-weight: 530;
-  font-size: 16px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.work-hours h3 {
-  font-size: 25px;
-  padding-top: 20px;
-  margin-left: 50px;
-}
-
-.work-hours ul {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  list-style-type: none;
-  margin-left: 50px;
-}
-
 .footer-container-right {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -161,14 +146,11 @@ h1 {
   border: transparent;
   font-size: 20px;
   font-weight: 550;
-  font-family: cursive;
+  font-family:'Times New Roman', Times, serif;
 }
 
-.footer-container-right button:hover {
-  transform: scale(1.5);
-}
 
-.costumer-review-mail {
+.message-mail {
   width: 300px;
   border: solid 1px gray;
   height: 26px;
@@ -191,38 +173,38 @@ h1 {
   padding-bottom: 20px;
 }
 
-.review-input {
+.message-input {
   place-content: center;
   width: 60%;
-  border-top: solid 1.5px rgba(128, 128, 128, 0.57);
+  border-top: solid 1.5px rgba(241, 241, 241, 0.538);
   padding-bottom: 40px;
   margin-left: 20%;
 }
 
-.review-input h3 {
+.message-input h3 {
   font-size: 20px;
   font-family: cursive;
   text-align: center;
   padding: 20px;
 }
 
-.show-review {
+.show-message {
   width: 90%;
   place-content: center;
   margin-left: 5%;
 }
 
-.show-review ul {
+.show-message ul {
   list-style-type: none;
 }
 
-.review-li {
+.message-li {
   text-align: justify;
-  border-bottom: solid 1px rgb(201, 170, 124);
+  border-bottom: solid 1px pink;
   border-radius: 2px;
 }
 
-.review-li p {
+.message-li p {
   padding-top: 5px;
   width: 96%;
   text-align: justify;
@@ -230,6 +212,6 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.review-li h3 {
+.message-li h3 {
   text-align: end;
 }

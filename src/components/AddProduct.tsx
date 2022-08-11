@@ -1,4 +1,4 @@
-export function Form({ products, setProducts }){
+export function AddProduct({ products, setProducts }){
     return(
         <>
          <form onSubmit={event => {event.preventDefault()
@@ -18,6 +18,15 @@ export function Form({ products, setProducts }){
     <button type='submit' > ADD PRODUCT</button>
    
   </form>
+  {/* <ul>
+    {products.map ((product)=>
+    <div>
+      <h3>{product.title}</h3>
+      <p>${product.price}</p>
+    
+    </div>
+    )}
+  </ul> */}
         </>
     )
 }
