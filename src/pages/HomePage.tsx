@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import { AddProduct } from "../components/AddProduct";
 import { Products } from '../components/Products';
 import { Footer } from "../components/Footer";
+import { AddProducts } from './AddProducts';
 export function HomePage(){
   const [products, setProducts] = useState([])
   useEffect(() => {
@@ -12,7 +12,6 @@ export function HomePage(){
     return(
         <div>
        <Products products={products} />
-       <AddProduct products={products} setProducts={ setProducts }/>
        <Footer />
        </div>
     )

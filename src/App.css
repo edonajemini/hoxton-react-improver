@@ -27,8 +27,7 @@
 }
 
 .header-li:hover {
-  color: gray;
-  font-size: 35px;
+  border-top: 2px solid pink;
 }
 
 h1 {
@@ -58,14 +57,16 @@ h1 {
   height: 330px;
   border-radius: 5px;
 }
-
+.products img:hover{
+  width: 340px;
+  height: 340px;
+}
 .product-list {
   margin: 10px;
   padding: 10px;
   border: solid 3px rgba(177, 177, 177, 0.217);
   border-radius: 5px;
 }
-
 
 .put-it-in-cart {
   display: grid;
@@ -84,7 +85,31 @@ h1 {
 .put-it-in-cart button:hover {
   color: red;
 }
+.addproduct-form {
+  margin: 70px;
+}
+.number-input {
+  height: 20px;
+  margin: 2px;
+}
 
+.addproduct-btn {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  background-color: pink;
+  border: thin solid gray;
+  color: gray;
+}
+.addproduct-btn:hover {
+  background-color: rgb(225, 146, 160);
+  color: black;
+}
+.url-input {
+  height: 20px;
+  margin: 2px;
+  width: 300px;
+}
 .footer {
   margin-top: 30px;
   width: 100%;

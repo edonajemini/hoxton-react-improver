@@ -4,7 +4,7 @@ export function AboutUs() {
     return(
         <div>
           <div className='about-container-right' >
-            <h2>Contact Us here!🌸</h2>
+            <h2>Leave a message!🌸</h2>
             <form onSubmit={event => {
               event.preventDefault()
 
@@ -14,8 +14,8 @@ export function AboutUs() {
               }
               setMessages([...messages, answer])
             }}>
-              <input type="email" name='email' className='message-mail' />
-              <textarea name="text" id="costumer-message" rows={5}>
+              <input type="email" name='email' className='message-mail' required />
+              <textarea name="text" id="costumer-message" rows={5} required>
               </textarea>
               <button>
                 Submit
