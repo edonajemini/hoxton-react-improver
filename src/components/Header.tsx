@@ -12,7 +12,7 @@ export function Header(){
           <Link to="/home">Home</Link>
           </li>
           <li className='header-li'>
-          <Link to="/categories"> Categories</Link>
+          <Link to="/addproducts"> Add Products</Link>
           </li>
           <li className='header-li'>
           <Link to="/cart"> Cart</Link>

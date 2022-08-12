@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { AddProduct } from "../components/AddProduct";
-import {Header} from "../components/Header"
 import { Products } from '../components/Products';
 import { Footer } from "../components/Footer";
 export function HomePage(){
@@ -66,12 +65,11 @@ export function HomePage(){
         inCart: 0
       }
   ])
-  const [messages, setMessages] = useState([])
     return(
         <div>
        <Products products={products} />
        <AddProduct products={products} setProducts={ setProducts }/>
-       <Footer messages={messages } setMessages={setMessages }/>
+       <Footer />
        </div>
     )
 }
