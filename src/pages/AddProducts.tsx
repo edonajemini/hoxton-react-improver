@@ -14,13 +14,6 @@ useEffect(() => {
     .then((resp) => resp.json())
     .then((productsFromServer) => setNewproducts(productsFromServer));
 }, []);
-if (newproducts === null)
-return (
-  <div>
-    <h1>Loading...</h1>
-  </div>
-);
-if (newproducts === undefined) return <Navigate to="/home" />;
 
   return(
       <>
