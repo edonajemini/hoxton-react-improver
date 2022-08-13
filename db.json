@@ -80,19 +80,24 @@
       "image": "https://www.lakeshorelady.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-29-at-9.50.16-AM-944x1024.png",
       "price": "70.00",
       "inCart": 0
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
     }
   ],
   "messages": [
     {
-    "email":"edona.jemini12@gmail.com",
-    "messages":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-    "emoji": "😍"
+      "email": "edona.jemini12@gmail.com",
+      "messages": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "emoji": "😍"
     },
     {
-      "email":"nicolas.marcora@gmail.com",
-      "messages":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "email": "nicolas.marcora@gmail.com",
+      "messages": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "emoji": "🙂"
-      }
-
+    }
   ]
 }
