@@ -18,6 +18,8 @@ export function AboutUs() {
                 email: event.target.email.value,
                 emoji: event.target.emoji.value
               }
+              event.target.reset();
+              
               setMessages([...messages, answer])
             }}>
               <input type="email" name='email' className='message-mail' placeholder='Please enter your email!' required />
