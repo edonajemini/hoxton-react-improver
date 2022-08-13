@@ -81,5 +81,18 @@
       "price": "70.00",
       "inCart": 0
     }
+  ],
+  "messages": [
+    {
+    "email":"edona.jemini12@gmail.com",
+    "messages":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+    "emoji": "😍"
+    },
+    {
+      "email":"nicolas.marcora@gmail.com",
+      "messages":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "emoji": "🙂"
+      }
+
   ]
 }
