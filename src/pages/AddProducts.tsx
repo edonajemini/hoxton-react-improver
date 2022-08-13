@@ -18,6 +18,7 @@ useEffect(() => {
   return(
       <>
       <div className='products'>
+        <h2>Post here clothes that u want to sell!</h2>
 <ul className='product-Ul'>
           {
             newproducts.map(item => (

@@ -42,6 +42,13 @@ h1 {
   margin: 10px;
   place-content: center;
 }
+.products h2 {
+  margin-left: 120px;
+  text-align: left;
+  color: rgb(179, 175, 175);
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 100;
+}
 
 .product-Ul {
   text-decoration: none;

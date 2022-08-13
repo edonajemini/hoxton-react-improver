@@ -64,16 +64,16 @@
   ],
   "newproducts": [
     {
-      "image": "https://i.pinimg.com/originals/4b/40/7a/4b407a9a787bc188da8d01b8d31d13f2.jpg",
-      "price": "100",
-      "inCart": 0,
-      "id": 1
-    },
-    {
       "image": "https://www.reitmans.com/on/demandware.static/-/Sites/default/dw52860b4d/Reitmans_CA/images/2022/lpv/20220502-dresses/lp-dresses-casual.jpg",
       "price": "85.00",
       "inCart": 0,
       "id": 2
+    },
+    {
+      "image": "https://femina.wwmindia.com/content/2021/apr/08-fashion1617625802.jpg",
+      "price": "100",
+      "inCart": 0,
+      "id": 4
     }
   ],
   "messages": [
